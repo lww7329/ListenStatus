@@ -62,7 +62,7 @@
 -(NSString *)getTime{
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     // 设置日期格式
-    [formatter setDateFormat:@"yyyy-mm-dd HH:mm:ss"];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     // 获取当前日期
     NSDate *currentDate = [NSDate date];
     NSString *currentDateString = [formatter stringFromDate:currentDate];
